@@ -1,0 +1,151 @@
+/* afeiçoa-te // 2021/22 // Design de Interação Web e Jogos //Matilde Ferreira */
+
+/*        Home       */
+body {
+    font-family: 'Outfit', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    padding: 7%;
+
+    background-image: linear-gradient(#FFEFD1, #FFD0C2);
+
+    box-sizing: border-box;
+}
+
+
+button {
+    width: 100%;
+    bottom: 0vh;
+    height: 45px;
+
+    font-family: 'Outfit', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
+    border: none;
+    border-radius: 24px;
+
+    box-shadow: 0px 3px 5px 0px rgb(255, 99, 68, 0.5);
+
+    color: #FAFAFA;
+}
+
+#base {
+    position: absolute;
+    left: 0;
+    bottom: -30vh;
+    padding: 7%;
+    width: 100%;
+    height: 30vh;
+    border-radius: 24px 24px 0px 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(#FFC5A5, #FF7B69);
+    opacity: 0;
+}
+
+.bprincipal {
+    margin-top:5vh;
+    background-color: #FF2E2E;
+    opacity: 0;
+}
+
+.bpanim {
+    background-color: #DE1B00;
+}
+
+menu {
+    margin-top: 1.5vh;
+    opacity: 0;
+}
+
+menu img {
+    width: 100%;
+}
+
+#guia {
+    display: block;
+    width: 58%;
+    margin: auto;
+    padding-top: 17%;
+}
+
+.icon {
+    width: 15%;
+    height: 0;
+    padding-bottom: 15%;
+    background-color: #FF8787;
+    border-radius: 100px;
+    box-shadow: 0px 3px 5px 0px rgb(255, 99, 68, 0.5);
+}
+
+label {
+    display: block;
+    width: 15%;
+    margin-top: 5px;
+
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    height: 70vh;
+    bottom: 30vh;
+    left: calc(14% + 15%);
+    position: absolute;
+    width: calc(85% - 21%);
+}
+
+#cat {
+    position: absolute;
+    bottom: -2vh;
+    left: -14.5vh;
+    height: 32vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+.speech-bubble {
+    position: absolute;
+    left: 0px;
+    bottom: calc(32vh + 30px - 2vh);
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: 20px 20px 20px 0px;
+    padding: 19px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px 0px rgb(255, 99, 68, 0.5);
+    opacity: 0;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0px;
+    left: 0;
+    margin-left: 0;
+    margin-bottom: -29px;
+    box-sizing: border-box;
+    border-width: 30px 35px 0px 0px;
+
+    border-style: solid;
+    border-color: #FAFAFA transparent;
+
+    -webkit-filter: drop-shadow(0px 4px 2px rgb(255, 99, 68, 0.5));
+    filter: drop-shadow(0px 4px 2px rgb(255, 99, 68, 0.5));
+}
+
+.speech-bubble span {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 3px;
+}
