@@ -46,7 +46,7 @@ $("#iniciarsessao").on("click", function () {
 
         //Ir para Página principal
         setTimeout(function () {
-            location.href = 'Afeicoate/home.html'
+            location.href = '/Afeicoate/home.html'
         }, 1000);
 
     } else {
