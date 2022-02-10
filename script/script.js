@@ -34,10 +34,10 @@ let json;
 let check = false;
 let Answers = [];
 let NrAnimal = 1;
-console.log(window.location);
+
 //----------------------------------------------------------------LOG IN---------------------------------------------------------------
 //Se o utilizador estiver na página do login
-if (document.location.pathname === "https://whiteraaven.github.io/Afeicoate/index.html") {
+if (document.URL === "https://whiteraaven.github.io/Afeicoate/") {
 
     //checboxes
     $("#memorizar").on("click", function () {
