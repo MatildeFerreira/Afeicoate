@@ -34,7 +34,10 @@ let json;
 let check = false;
 let Answers = [];
 let NrAnimal = 1;
-
+$("#perfil").on("click", function () {
+    localStorage.clear();
+    location.reload();
+});
 //----------------------------------------------------------------LOG IN---------------------------------------------------------------
 //Se o utilizador estiver na página do login
 if (window.location.href === "https://whiteraaven.github.io/Afeicoate/") {
