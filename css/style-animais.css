@@ -21,35 +21,35 @@ body {
 }
 
 #Tobias {
-    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Tobias.jpg");
+    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Tobias.jpg" );
     z-index: 10;
 }
 
 #Marta {
     display: none;
     margin-left: -50px;
-    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Marta.jpg");
+    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Marta.jpg" );
     z-index: 20;
 }
 
 #Azeitona {
     display: none;
     margin-left: -50px;
-    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Azeitona.jpg");
+    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Azeitona.jpg" );
     z-index: 30;
 }
 
 #Nestum {
     display: none;
     margin-left: -50px;
-    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Nestum.jpg");
+    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Nestum.jpg" );
     z-index: 40;
 }
 
 #Kevin {
     display: none;
     margin-left: -50px;
-    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Kevin.jpg");
+    background-image: url("https://whiteraaven.github.io/Afeicoate/img/Kevin.jpg" );
     z-index: 50;
 }
 
