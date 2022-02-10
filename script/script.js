@@ -37,7 +37,7 @@ let NrAnimal = 1;
 
 //----------------------------------------------------------------LOG IN---------------------------------------------------------------
 //Se o utilizador estiver na página do login
-if (document.location.pathname === "/index.html") {
+if (document.location.pathname === "index.html") {
 
     //checboxes
     $("#memorizar").on("click", function () {
@@ -111,14 +111,14 @@ $("#iniciarsessao").on("click", function () {
 
         //Ir para Página principal
         setTimeout(function () {
-            location.href = '/home.html'
+            location.href = 'home.html'
         }, 1500);
     }
 });
 
 //----------------------------------------------------------------Home Page---------------------------------------------------------------
 //Se o utilizador estiver na página principal // Home Page Dinâmica consoante etapa
-if (document.location.pathname === "/home.html") {
+if (document.location.pathname === "home.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
@@ -127,7 +127,7 @@ if (document.location.pathname === "/home.html") {
     if (DadosUtilizador === null) {
 
         //Se não existirem voltar à página de login
-        location.href = '/index.html'
+        location.href = 'index.html'
 
     } else {
         //Se existirem 
@@ -203,14 +203,14 @@ $("#testaraptidao").on("click", function () {
     //Ir para página de teste de aptidão à adoção
     setTimeout(function () {
 
-        location.href = '/teste-aptidao-adocao.html'
+        location.href = 'teste-aptidao-adocao.html'
 
     }, 1500);
 
 });
 //----------------------------------------------------------------Teste Aptidão---------------------------------------------------------------
 //Se o utilizador estiver na página do teste de adoção
-if (document.location.pathname === "/teste-aptidao-adocao.html") {
+if (document.location.pathname === "teste-aptidao-adocao.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
@@ -220,7 +220,7 @@ if (document.location.pathname === "/teste-aptidao-adocao.html") {
     if (DadosUtilizador === null) {
 
         //Se não existirem voltar à página de login
-        location.href = '/index.html'
+        location.href = 'index.html'
 
     } else {
         //Verificar qual o número da pergunta em que está o utilizador
@@ -245,7 +245,7 @@ if (document.location.pathname === "/teste-aptidao-adocao.html") {
 
             //Se não estiver voltar a página inicial
         } else {
-            location.href = '/home.html'
+            location.href = 'home.html'
         }
     };
 };
@@ -661,7 +661,7 @@ $(".close").on("click", function () {
 
     //Ir para página principal
     setTimeout(function () {
-        location.href = '/home.html'
+        location.href = 'home.html'
     }, 1800);
 });
 
@@ -711,12 +711,12 @@ $(".bprincipal2").on("click", function () {
 
     if (UEtapa == 3) {
         setTimeout(function () {
-            location.href = '/animais.html'
+            location.href = 'animais.html'
         }, 1000);
     } else {
         //Ir para página principal
         setTimeout(function () {
-            location.href = '/home.html'
+            location.href = 'home.html'
         }, 1500);
     }
 
@@ -805,14 +805,14 @@ $("#encontrar").on("click", function () {
     //Ir para página de teste de aptidão à adoção
     setTimeout(function () {
 
-        location.href = '/encontrar-companheiro.html'
+        location.href = 'encontrar-companheiro.html'
 
     }, 1500);
 
 });
 
 //Se o utilizador estiver na página de encontrar companheiro
-if (document.location.pathname === "/encontrar-companheiro.html") {
+if (document.location.pathname === "encontrar-companheiro.html") {
     json = "script/encontrar.json"
 
     DadosUtilizador = localStorage.getItem("Utilizador");
@@ -822,7 +822,7 @@ if (document.location.pathname === "/encontrar-companheiro.html") {
     if (DadosUtilizador === null) {
 
         //Se não existirem voltar à página de login
-        location.href = '/index.html'
+        location.href = 'index.html'
 
     } else {
         //Verificar qual o número da pergunta em que está o utilizador
@@ -847,7 +847,7 @@ if (document.location.pathname === "/encontrar-companheiro.html") {
 
             //Se não estiver voltar a página inicial
         } else {
-            location.href = '/home.html'
+            location.href = 'home.html'
         }
     };
 };
@@ -889,7 +889,7 @@ $("#escolher").on("click", function () {
     //Ir para página de teste de aptidão à adoção
     setTimeout(function () {
 
-        location.href = '/animais.html'
+        location.href = 'animais.html'
 
     }, 1500);
 
@@ -1071,7 +1071,7 @@ $(document).ready(function () {
     });
 });
 //---------------------------- Adotar
-if (document.location.pathname === "/animais.html") {
+if (document.location.pathname === "animais.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
 
@@ -1079,7 +1079,7 @@ if (document.location.pathname === "/animais.html") {
     if (DadosUtilizador === null) {
 
         //Se existirem, ir para a home page (skip login)
-        location.href = '/home.html'
+        location.href = 'home.html'
     }
 };
 
@@ -1196,7 +1196,7 @@ $(document).ready(function () {
 
         //Ir para página principal
         setTimeout(function () {
-            location.href = '/home.html'
+            location.href = 'home.html'
         }, 2300);
     });
 });
