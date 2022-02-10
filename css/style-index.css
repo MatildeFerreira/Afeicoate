@@ -2,14 +2,14 @@
 
 /*        LogIn       */
 html {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
 body {
     font-family: 'Outfit', Arial, sans-serif;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 7%;
     background-image: linear-gradient(#FFEFD1, #FFD0C2);
 
