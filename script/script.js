@@ -37,7 +37,7 @@ let NrAnimal = 1;
 
 //----------------------------------------------------------------LOG IN---------------------------------------------------------------
 //Se o utilizador estiver na página do login
-if (document.URL === "https://whiteraaven.github.io/Afeicoate/") {
+if (window.location.href === "https://whiteraaven.github.io/Afeicoate/") {
 
     //checboxes
     $("#memorizar").on("click", function () {
