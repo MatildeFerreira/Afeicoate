@@ -1,5 +1,11 @@
 // afeiçoa-te // 2021/22 // Design de Interação Web e Jogos //Matilde Ferreira //
 
+$("#perfil").on("click", function () {
+    localStorage.clear();
+    location.reload();
+    console.log("local storage clear");
+});
+
 //Declarar variáveis globais
 let DadosUtilizador;
 let nrPergunta;
@@ -34,10 +40,7 @@ let json;
 let check = false;
 let Answers = [];
 let NrAnimal = 1;
-$("#perfil").on("click", function () {
-    localStorage.clear();
-    location.reload();
-});
+
 //----------------------------------------------------------------LOG IN---------------------------------------------------------------
 //Se o utilizador estiver na página do login
 if (window.location.href === "https://whiteraaven.github.io/Afeicoate/") {
