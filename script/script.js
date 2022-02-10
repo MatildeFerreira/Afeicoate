@@ -62,7 +62,7 @@ if (window.location.href === "https://whiteraaven.github.io/Afeicoate/") {
     if (DadosUtilizador != null) {
 
         //Se existirem, ir para a home page (skip login)
-        location.href = '/home.html'
+        location.href = 'https://whiteraaven.github.io/Afeicoate/'
     }
 };
 
@@ -118,7 +118,7 @@ $("#iniciarsessao").on("click", function () {
 
 //----------------------------------------------------------------Home Page---------------------------------------------------------------
 //Se o utilizador estiver na página principal // Home Page Dinâmica consoante etapa
-if (document.location.pathname === "home.html") {
+if (window.location.href === "https://whiteraaven.github.io/Afeicoate/home.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
@@ -127,7 +127,7 @@ if (document.location.pathname === "home.html") {
     if (DadosUtilizador === null) {
 
         //Se não existirem voltar à página de login
-        location.href = 'index.html'
+        location.href = 'https://whiteraaven.github.io/Afeicoate/'
 
     } else {
         //Se existirem 
