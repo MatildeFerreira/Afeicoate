@@ -62,7 +62,7 @@ if (window.location.href === "https://whiteraaven.github.io/Afeicoate/") {
     if (DadosUtilizador != null) {
 
         //Se existirem, ir para a home page (skip login)
-        location.href = 'https://whiteraaven.github.io/Afeicoate/'
+        location.href = 'home.html'
     }
 };
 
