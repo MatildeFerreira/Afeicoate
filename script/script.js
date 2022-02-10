@@ -210,7 +210,7 @@ $("#testaraptidao").on("click", function () {
 });
 //----------------------------------------------------------------Teste Aptidão---------------------------------------------------------------
 //Se o utilizador estiver na página do teste de adoção
-if (document.location.pathname === "teste-aptidao-adocao.html") {
+if (window.location.href === "https://whiteraaven.github.io/Afeicoate/teste-aptidao-adocao.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
@@ -812,7 +812,7 @@ $("#encontrar").on("click", function () {
 });
 
 //Se o utilizador estiver na página de encontrar companheiro
-if (document.location.pathname === "encontrar-companheiro.html") {
+if (window.location.href === "https://whiteraaven.github.io/Afeicoate/encontrar-companheiro.html") {
     json = "script/encontrar.json"
 
     DadosUtilizador = localStorage.getItem("Utilizador");
@@ -1071,7 +1071,7 @@ $(document).ready(function () {
     });
 });
 //---------------------------- Adotar
-if (document.location.pathname === "animais.html") {
+if (window.location.href === "https://whiteraaven.github.io/Afeicoate/animais.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
 
