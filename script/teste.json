@@ -1,0 +1,323 @@
+{
+    "Estás consciente de que a adoção é um compromisso para mais de uma década?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Os gatinhos vivem em média 15 anos. Ao adotares serás responsável pelo teu gatinho durante toda a sua vida."
+
+        }]
+            }
+        ],
+
+    "Tens tempo para dar carinho, afeto e atenção ao teu gatinho?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Apesar dos gatos serem prececionados como animais independentes, necessitam do teu carinho, afeto e atenção tal como os cães."
+
+        }]
+            }
+   ],
+
+    "Estás consciência que a adoção de um gatinho irá provocar alterações na tua rotina?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Ao adotares um gatinho terás que ajustar a tua rotina aos cuidados que este necessita, sejam estes higiénicos, de saúde, entre outros."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "Ao adotares um gatinho terás que ajustar a tua rotina aos cuidados que este necessita, sejam estes higiénicos, de saúde, entre outros."
+
+        }]
+            }
+   ],
+
+    "Quando tiveres de te ausentar, tens alguém disponível para cuidar do teu gatinho?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "É importante planeares a cargo de quem vais deixar o teu gatinho caso necessites de te ausentar. Ele não pode ficar sozinho mais de 48 horas."
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "É importante planeares a cargo de quem vais deixar o teu gatinho caso necessites de te ausentar. Ele não pode ficar sozinho mais de 48 horas."
+
+        }]
+            }
+],
+
+    "Caso ocorra alguma mudança na tua vida, como emigrar ou mudar de habitação, o teu gatinho irá acompanhar-te nessa mudança?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Com a adoção o gatinho torna-se um membro da tua família e deve acompanhar-te sempre."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "Com a adoção o gatinho torna-se um membro da tua família e deve acompanhar-te sempre."
+
+        }]
+            }
+   ],
+
+    "Encontras-te numa situação familiar e profissional estável?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Aguarda que a tua situação familiar ou profissional estabilize antes de adotares um gatinho."
+
+        }]
+        }
+ ],
+
+    "Todos os membros do teu agregado familiar estão de acordo com a adoção?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "É importante teres a certeza que todo o teu agregado familiar concorda com a adoção."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "É importante teres a certeza que todo o teu agregado familiar concorda com a adoção."
+
+        }]
+            }
+   ],
+
+    "Alguém no teu agregado familiar tem alergias ao pêlo de animais?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Errado",
+                "Output": "As alergias ao pêlo de animal podem ser bastante incomodas. Não poderás adotar um gatinho neste momento."
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Certo"
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "Procura que tu e o teu agregado familiar, tenham contacto com um gatinho de um amigo ou familiar. Observem se existem reações alérgicas após uma hora."
+
+        }]
+            }
+   ],
+
+    "Se tiveres crianças, irás ensiná-las a respeitar o gatinho e a interagir com ele de forma dócil?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "As crianças podem percecionar o gatinho como um brinquedo e magoá-lo acidentalmente."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não se aplica",
+                "Valor": "Certo"
+
+        }]
+            }
+   ],
+
+    "Tens possibilidades financeiras para suportar as despesas inerentes ao gatinho, como o veterinário e a alimentação?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Existem despesas inerentes a ter um gatinho que deves ser capaz de comportar e assegurar."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "Existem despesas inerentes a ter um gatinho que deves ser capaz de comportar e assegurar."
+
+        }]
+            }
+   ],
+
+    "O teu senhorio ou condomínio permitem que tenhas animais na tua habitação?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "Não poderás adotar um gatinho se o teu senhorio ou condomínio não o permitem, é importante estares numa habitação em que o teu gatinho é bem vindo."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não tenho a certeza",
+                "Valor": "Errado",
+                "Output": "Existem condomínimos e senhorios que não permitem animais. Certifica-te que não é o teu caso para que a adoção do teu gatinho seja um sucesso."
+
+        }]
+            }
+   ],
+
+    "O gatinho vai ter acesso ao exterior, terraços ou varandas?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim, livremente",
+                "Valor": "Errado",
+                "Output": "Um gatinho com acesso ao exterior pode ser atropelado ou perder-se e não ser capaz de voltar a casa. Considera utilizar uma trela e peitoral."
+                    }],
+
+            "Op2": [{
+                "Resposta": "Sim, com trela e peitoral",
+                "Valor": "Certo"
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não",
+                "Valor": "Certo"
+
+        }]
+            }
+   ],
+
+    "Se tens outros animais, estes encontram-se vacinados, desparasitados, esterilizados e com microchip?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "A vacinação, desparatisação, esterilização e o microchip são essenciais a garantir a saúde e segurança dos teus animais. Considera estes aspetos antes de adotares o teu gatinho."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não se aplica",
+                "Valor": "Certo"
+
+        }]
+            }
+   ],
+
+    "Se tens mais algum gatinho, este efetuou testes à FIV/FELV?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "A FIV/FELV são doenças transmissíveis entre gatinhos, antes de adotares é importante saberes se o teu as possuí."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não se aplica",
+                "Valor": "Certo"
+
+        }]
+            }
+   ],
+
+
+    "Irás enviar fotografias e informações do teu gatinho, durante o acompanhamento da adoção, à instituição onde este se encontrava?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim",
+                "Valor": "Certo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não",
+                "Valor": "Errado",
+                "Output": "É importante a instituição acompanhar o processo de adoção para se assegurar do bem estar do teu gatinho."
+
+        }],
+
+            "Op3": [{
+                "Resposta": "Não sei",
+                "Valor": "Errado",
+                "Output": "É importante a instituição acompanhar o processo de adoção para se assegurar do bem estar do teu gatinho."
+
+        }]
+            }
+   ]
+
+
+}

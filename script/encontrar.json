@@ -1,0 +1,269 @@
+{
+    "Tens mais algum gatinho?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim, um gato"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Sim, dois ou mais gatos"
+
+        }],
+            "Op3": [{
+                "Resposta": "Não"
+
+            }]
+              }
+    ],
+
+    "O(s) teu(s) gatinho(s) tem/têm o vírus FIV ou FeLV?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não"
+
+        }]
+            }
+   ],
+
+    "O(s) teu(s) gatinho(s) é/são macho(s) ou fêmea(s)?": [
+        {
+            "Op1": [{
+                "Resposta": "Macho(s)"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Fêmea(s)"
+        }],
+
+            "Op3": [{
+                "Resposta": "Ambos"
+
+        }]
+            }
+   ],
+
+    "Que idade tem/têm o(s) teu(s) gatinho(s)?": [
+        {
+            "Op1": [{
+                "Resposta": "Menos de 1 ano"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Mais de 1 ano"
+        }],
+
+            "Op3": [{
+                "Resposta": "Ambos"
+
+        }]
+            }
+   ],
+
+    "Tens algum cão?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim, um cão"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Sim, dois ou mais cães"
+
+        }],
+            "Op3": [{
+                "Resposta": "Não"
+
+            }]
+              }
+    ],
+
+
+    "Tens experiência com gatos?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim, bastante"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Sim, alguma"
+
+        }],
+            "Op3": [{
+                "Resposta": "Não"
+
+        }]
+            }
+   ],
+
+
+    "Como esperas que seja o comportamento do teu gatinho?": [
+        {
+            "Op1": [{
+                "Resposta": "Pachorrento e calmo"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Curioso e brincalhão"
+
+        }],
+            "Op3": [{
+                "Resposta": "Muito curioso e brincalhão"
+
+        }]
+            }
+   ],
+
+    "Estás disposto a adotar um gatinho que tenha necessidades especiais relacionadas com a sua saúde?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não"
+
+        }],
+            "Op3": [{
+                "Resposta": "Não tenho a certeza"
+
+        }]
+            }
+   ],
+
+    "Tens tempo e paciência para juntares um gatinho, que ainda não seja sociável, à tua família?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não"
+
+        }],
+            "Op3": [{
+                "Resposta": "Não tenho a certeza"
+
+        }]
+            }
+   ],
+
+    "Durante quanto tempo ficará, normalmente, o gatinho sozinho por dia?": [
+        {
+            "Op1": [{
+                "Resposta": "1hr"
+                    }],
+
+            "Op2": [{
+                "Resposta": "2hr"
+        }],
+
+            "Op3": [{
+                "Resposta": "4hr"
+
+        }],
+            "Op4": [{
+                "Resposta": "8hr"
+        }],
+            "Op5": [{
+                "Resposta": "12hr"
+        }],
+            "Op6": [{
+                "Resposta": "16hr+"
+        }]
+            }
+   ],
+
+    "Com que frequência tencionas escovar o pêlo do teu gatinho?": [
+        {
+            "Op1": [{
+                "Resposta": "Diariamente"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Semanalmente"
+        }]
+            }
+   ],
+
+    "Por quantas pessoas é composto o teu agregado familiar, incluindo-te?": [
+        {
+            "Op1": [{
+                "Resposta": "1"
+        }],
+            "Op2": [{
+                "Resposta": "2"
+        }],
+            "Op3": [{
+                "Resposta": "3"
+        }],
+            "Op4": [{
+                "Resposta": "4"
+        }],
+            "Op5": [{
+                "Resposta": "5"
+        }],
+            "Op6": [{
+                "Resposta": "6+"
+        }]
+            }
+],
+
+    "Existem crianças, com menos de 12 anos, no teu agregado?": [
+        {
+            "Op1": [{
+                "Resposta": "Sim"
+                    }],
+
+            "Op2": [{
+                "Resposta": "Não"
+        }]
+            }
+   ],
+
+    "Em que faixa etária se encontra a criança mais nova do teu agregado familiar?": [
+        {
+            "Op1": [{
+                "Resposta": "0-4 anos"
+                    }],
+
+            "Op2": [{
+                "Resposta": "4-8 anos"
+        }],
+            "Op3": [{
+                "Resposta": "8-12 anos"
+        }]
+            }
+   ],
+
+
+    "Que distância estás disposto a percorrer para adotares o teu companheiro?": [
+        {
+            "Op1": [{
+                "Resposta": "5km"
+        }],
+
+            "Op2": [{
+                "Resposta": "10km"
+        }],
+
+            "Op3": [{
+                "Resposta": "15km"
+
+        }],
+            "Op4": [{
+                "Resposta": "20km"
+        }],
+            "Op5": [{
+                "Resposta": "30km"
+        }],
+            "Op6": [{
+                "Resposta": "40km"
+        }]
+            }
+ ]
+
+
+}
