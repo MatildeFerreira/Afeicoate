@@ -43,7 +43,7 @@ let NrAnimal = 1;
 
 //----------------------------------------------------------------LOG IN---------------------------------------------------------------
 //Se o utilizador estiver na página do login
-if (window.location.href === "https://whiteraaven.github.io/Afeicoate/") {
+if (window.location.href === "https://matildeferreira.github.io/Afeicoate/") {
 
     //checboxes
     $("#memorizar").on("click", function () {
@@ -124,7 +124,7 @@ $("#iniciarsessao").on("click", function () {
 
 //----------------------------------------------------------------Home Page---------------------------------------------------------------
 //Se o utilizador estiver na página principal // Home Page Dinâmica consoante etapa
-if (window.location.href === "https://whiteraaven.github.io/Afeicoate/home.html") {
+if (window.location.href === "https://matildeferreira.github.io/Afeicoate/home.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
@@ -133,7 +133,7 @@ if (window.location.href === "https://whiteraaven.github.io/Afeicoate/home.html"
     if (DadosUtilizador === null) {
 
         //Se não existirem voltar à página de login
-        location.href = 'https://whiteraaven.github.io/Afeicoate/'
+        location.href = 'https://matildeferreira.github.io/Afeicoate/'
 
     } else {
         //Se existirem 
@@ -216,11 +216,11 @@ $("#testaraptidao").on("click", function () {
 });
 //----------------------------------------------------------------Teste Aptidão---------------------------------------------------------------
 //Se o utilizador estiver na página do teste de adoção
-if (window.location.href === "https://whiteraaven.github.io/Afeicoate/teste-aptidao-adocao.html") {
+if (window.location.href === "https://matildeferreira.github.io/Afeicoate/teste-aptidao-adocao.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
-    json = "https://whiteraaven.github.io/Afeicoate/script/teste.json";
+    json = "https://matildeferreira.github.io/Afeicoate/script/teste.json";
 
     //Verificar se existem utilizadores em local storage
     if (DadosUtilizador === null) {
@@ -285,7 +285,7 @@ $(".bsecundario").on("click", function () {
         if (op === "op1") {
             //Se for correta, avançar para a próxima pergunta
             if (op1V === "Certo") {
-                json = "https://whiteraaven.github.io/Afeicoate/script/teste.json";
+                json = "https://matildeferreira.github.io/Afeicoate/script/teste.json";
                 Correta(json);
 
                 //Se for errada, página de conselho
@@ -293,37 +293,37 @@ $(".bsecundario").on("click", function () {
                 Errada("op1");
 
             } else if (op1V === undefined) {
-                json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json";
+                json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json";
                 Correta(json);
             }
 
         } else if (op === "op2") {
             if (op2V === "Certo") {
-                json = "https://whiteraaven.github.io/Afeicoate/script/teste.json";
+                json = "https://matildeferreira.github.io/Afeicoate/script/teste.json";
                 Correta(json);
 
             } else if (op2V === "Errado") {
                 Errada("op2");
 
             } else if (op2V === undefined) {
-                json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json";
+                json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json";
                 Correta(json);
             }
 
         } else if (op === "op3") {
             if (op3V === "Certo") {
-                json = "https://whiteraaven.github.io/Afeicoate/script/teste.json";
+                json = "https://matildeferreira.github.io/Afeicoate/script/teste.json";
                 Correta(json);
 
             } else if (op3V === "Errado") {
                 Errada("op3");
 
             } else if (op3V === undefined) {
-                json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json";
+                json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json";
                 Correta(json);
             }
         } else {
-            json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json";
+            json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json";
             Correta(json);
         }
 
@@ -469,7 +469,7 @@ function Correta(pjson) {
     if (UPergunta >= 14) {
 
         LayoutExit();
-        if (json === "https://whiteraaven.github.io/Afeicoate/script/teste.json") {
+        if (json === "https://matildeferreira.github.io/Afeicoate/script/teste.json") {
             $(".bprincipal2").html("Continuar");
             $(".speech-bubble-teste #Greeting").css("display", "block");
             $(".speech-bubble-teste #Greeting").html("Parabéns " + UNome + "!");
@@ -817,8 +817,8 @@ $("#encontrar").on("click", function () {
 });
 
 //Se o utilizador estiver na página de encontrar companheiro
-if (window.location.href === "https://whiteraaven.github.io/Afeicoate/encontrar-companheiro.html") {
-    json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json"
+if (window.location.href === "https://matildeferreira.github.io/Afeicoate/encontrar-companheiro.html") {
+    json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json"
 
     DadosUtilizador = localStorage.getItem("Utilizador");
     DadosUtilizador = JSON.parse(DadosUtilizador);
@@ -926,7 +926,7 @@ $(document).ready(function () {
         DadosUtilizador = localStorage.getItem("Utilizador");
         DadosUtilizador = JSON.parse(DadosUtilizador);
 
-        json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json"
+        json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json"
 
         if (check == false) {
             $.each(DadosUtilizador, function (index, value) {
@@ -1014,7 +1014,7 @@ $(document).ready(function () {
         DadosUtilizador = localStorage.getItem("Utilizador");
         DadosUtilizador = JSON.parse(DadosUtilizador);
 
-        json = "https://whiteraaven.github.io/Afeicoate/script/encontrar.json"
+        json = "https://matildeferreira.github.io/Afeicoate/script/encontrar.json"
         nrPergunta = nrPergunta + 1;
 
         //Animação dos elementos a desaparecerem
@@ -1076,7 +1076,7 @@ $(document).ready(function () {
     });
 });
 //---------------------------- Adotar
-if (window.location.href === "https://whiteraaven.github.io/Afeicoate/animais.html") {
+if (window.location.href === "https://matildeferreira.github.io/Afeicoate/animais.html") {
 
     DadosUtilizador = localStorage.getItem("Utilizador");
 
