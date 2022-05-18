@@ -186,7 +186,7 @@ p:last-child {
 }
 
 @media (orientation:landscape) {
-   body {
+   html {
      width: 360px;
      height: 700px;
    }
