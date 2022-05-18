@@ -295,3 +295,10 @@ button {
     font-weight: 500px;
     line-height: 21px;
 }
+
+@media (orientation:landscape) {
+   body {
+     width: 360px;
+     height: 700px;
+   }
+}
