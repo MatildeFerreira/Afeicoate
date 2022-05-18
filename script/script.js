@@ -2,8 +2,8 @@
 
 $("#perfil").on("click", function () {
     if (confirm("Encontraste a  funcionalidade escondida do "afeiçoate". Se continuares o teu progresso será reiniciado e terás que refazer todas as perguntas.") == true) {
-     //localStorage.clear();
-    //location.reload();
+     localStorage.clear();
+    location.reload();
   }
 });
 
