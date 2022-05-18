@@ -1,9 +1,10 @@
 // afeiçoa-te // 2021/22 // Design de Interação Web e Jogos //Matilde Ferreira //
 
 $("#perfil").on("click", function () {
-    localStorage.clear();
-    location.reload();
-    console.log("local storage clear");
+    confirm("This will delete all your progress and date, are you sure you want to continue?")
+    //localStorage.clear();
+    //location.reload();
+    //console.log("local storage clear");
 });
 
 //Declarar variáveis globais
