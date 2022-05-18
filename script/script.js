@@ -1,12 +1,5 @@
 // afeiçoa-te // 2021/22 // Design de Interação Web e Jogos //Matilde Ferreira //
 
-$("#perfil").on("click", function () {
-    if (confirm("Encontraste a  funcionalidade escondida do "afeiçoate". Se continuares o teu progresso será reiniciado e terás que refazer todas as perguntas.") == true) {
-     localStorage.clear();
-    location.reload();
-  }
-});
-
 //Declarar variáveis globais
 let DadosUtilizador;
 let nrPergunta;
