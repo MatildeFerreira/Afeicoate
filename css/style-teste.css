@@ -214,11 +214,3 @@ section {
 #op6 {
     display: none;
 }
-
-@media (orientation:landscape) {
-   body {
-     width: 360px;
-     height: 700px;
-   }
-
-}
