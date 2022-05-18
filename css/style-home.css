@@ -186,9 +186,10 @@ p:last-child {
 }
 
 @media (orientation:landscape) {
-   html {
+   body {
      width: 360px;
      height: 700px;
+     padding: 27.325px;
    }
 
 }
