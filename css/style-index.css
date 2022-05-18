@@ -188,10 +188,3 @@ button {
     color: #FF2E2E;
 }
 
-@media (orientation:landscape) {
-   body {
-     width: 360px;
-     height: 700px;
-   }
-
-}
